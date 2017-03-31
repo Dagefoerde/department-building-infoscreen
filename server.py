@@ -19,13 +19,6 @@ def create_app():
 
 app = create_app()
 
-def create_app():
-    app = Flask(__name__)
-
-    return app
-
-app = create_app()
-
 @app.route('/')
 def hello_world():
 	return render_template("index.html")
