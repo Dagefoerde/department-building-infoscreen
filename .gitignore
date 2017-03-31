@@ -9,3 +9,5 @@ ENV/
 # NodeJS / npm
 /node_modules
 
+# Webpack
+static/bundle.js
